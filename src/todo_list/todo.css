@@ -1,0 +1,49 @@
+.todo{
+    width: 300px;
+    text-align: center;
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+    margin:20px auto;
+}
+
+.items-container{
+    max-height: 300px;
+    overflow-y: scroll;
+    background-color: var(--white);
+    margin-bottom: 5px;
+}
+
+.item{ 
+    width: 95%;
+    margin: 5px auto;
+    background-color: var(--white);
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    border: 2px solid;
+    padding: 5px;
+}
+
+.todo select{
+    font-size:1.2em;
+    margin: 3px;
+}
+.todo  button {
+    width: 33%;
+    display: inline-block;
+    margin-bottom: 2px;
+    color: var(--white);
+    background-color: var(--black);
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.done {
+    text-decoration-line: line-through;
+    color: gray;
+    background-color: aquamarine
+}
